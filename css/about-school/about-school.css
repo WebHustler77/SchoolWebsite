@@ -1,0 +1,29 @@
+.grid-wrapper {
+    font-family: Ubuntu Mono;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 40% auto;
+    column-gap: 30px;
+}
+
+.first-column {
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 15px;
+
+}
+
+.text-block {
+    margin-bottom: 50px;    
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 30px;
+    margin: 5px 0 20px;
+
+}
+
+img {
+    border-radius: 15px;
+}
