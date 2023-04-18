@@ -1,0 +1,58 @@
+.header {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #8d8d8d;
+}
+
+
+
+.header-row {
+    display: flex;
+    align-items: center; /*позиционирование по вертикали*/
+    justify-content: space-between; /*позиционирование по горизонтали*/ 
+}
+
+.logo {
+    display: flex;
+    height: 100px;
+    font-size: 16px;
+}
+
+.logo-text1 {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.logo-text2 {
+    font-size: 12px;
+}
+
+#img-logo {
+    height: 100%;
+}
+
+.header-nav {
+    display: flex;
+    font-size: 16px;
+    color: #151719;
+    flex-wrap: wrap;
+}
+
+.header-nav ul {
+    display: flex;
+}
+
+.header-nav li {
+    margin-right: 50px;
+    transition: color 0.2s;
+}
+
+.header-nav li:last-child {
+    margin-right: 0px;
+}
+
+.header-nav li:hover {
+    color: #bd1f04;
+}
+
+
