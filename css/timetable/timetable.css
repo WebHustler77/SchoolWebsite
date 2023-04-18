@@ -1,0 +1,72 @@
+h2 {
+    font-size: 22px;
+    font-weight: 800;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 800;
+    margin: 20px 0 20px;
+}
+
+.timetable-wrapper {
+    display: flex;
+    flex-flow: column;
+    margin: 10px 0 30px;
+    padding: 5px;
+}
+
+.select {
+    margin-top: 2px;
+}
+
+.group-select {
+    display: flex;
+    align-items: start;
+
+}
+
+.schedule {
+    align-self: center;
+
+}
+
+table {
+    text-align: center;
+    border-spacing: 5px;
+    border: 6px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+    border: 5px solid black;
+    background: #ffe5e5;
+}
+
+td {
+    padding: 10px;
+    border: 5px solid black;
+}
+
+tr {
+    border: 5px solid black;
+
+}
+
+.grey {
+    background: #ffe5e5;
+}
+
+
+table:not(.active) {
+    display: none;
+}
+
+caption {
+    margin: 10px 0 10px;
+}
