@@ -1,0 +1,73 @@
+.admission {
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.adm-head {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.adm-block {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.adm-text {
+    font-family: Ubuntu Mono;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.italic {
+    font-style: italic;
+    line-height: 25px;
+}
+
+.adm-btn {
+    display: flex;
+    flex-flow: column;
+    padding: 20px;
+    width: 1400px;
+    height: 200px;
+    border-radius: 15px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.2s;  
+    border: 1px solid #bd1f04;
+
+}
+
+.adm-btn:hover{
+    box-shadow: 4px 5px 50px 10px #bd1f04;    
+
+}
+
+.adm-btn-head {
+    font-family: Ubuntu Mono;
+    font-size: 22px;
+    font-weight: 800;
+    margin: 5px;
+
+}
+
+.adm-btn-text {
+    font-family: Ubuntu Mono;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px;
+
+}
+
+.link {
+    font-weight: 800;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #306AFD;
+
+}

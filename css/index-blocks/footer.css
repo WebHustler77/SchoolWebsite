@@ -1,0 +1,74 @@
+.footer {
+    font-size: 14px;
+    color: white;
+    background-color: #373535;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    padding: 40px;
+    align-items: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.office-number {
+    margin-right: 50px;
+}
+
+.fax {
+    margin-right: 50px;
+
+}
+
+.e-mail {
+    margin-right: 50px;
+
+}
+
+.social-media {
+    display: flex;
+    
+}
+
+.social-media div:hover {
+    opacity: 0.5;
+}
+
+.odnoklassniki {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.vkontakte {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+
+}
+
+.telegram {
+    width: 45px;
+    height: 45px;
+
+}
+
+.privacy-policy {
+    font-size: 16px;
+}
+
+.privacy-policy:hover {
+    opacity: 0.5;
+}
+
+.title {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
