@@ -70,4 +70,30 @@
     justify-self: right;
 }
 
+@media (max-width: 767px) {
+
+    .news-section {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .news-row {
+        flex-flow: column;
+        align-items: center;
+        
+    }
+
+    .head-text {
+        font-size: 35px;
+    }
+
+    .news-block {
+        padding: 10px;
+        width: 100%;
+        margin: 10px;
+        height: 500px;
+    }
+
+}
+
 
