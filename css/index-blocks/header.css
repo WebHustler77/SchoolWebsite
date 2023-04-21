@@ -35,7 +35,6 @@
     display: flex;
     font-size: 16px;
     color: #151719;
-    flex-wrap: wrap;
 }
 
 .header-nav ul {
@@ -55,4 +54,18 @@
     color: #bd1f04;
 }
 
+@media (max-width: 767px) {
 
+    .header-nav {
+        display: none;
+    }
+
+    .news-head {
+        justify-content: center;
+    
+    }
+
+    .header-nav {
+        display: none;
+    }
+}
