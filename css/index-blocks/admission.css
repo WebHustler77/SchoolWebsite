@@ -36,8 +36,8 @@
     align-self: center;
     justify-content: center;
     align-items: center;
-    transition: box-shadow 0.2s;  
     border: 1px solid #bd1f04;
+    transition: box-shadow 0.2s;  
 
 }
 
@@ -64,10 +64,32 @@
 
 .link {
     font-weight: 800;
+    transition: color 0.2s;
 }
 
 .link:hover {
-    text-decoration: underline;
     color: #306AFD;
+    opacity: 0.85;
+}
 
+@media (max-width: 767px) {
+    .adm-block {
+        flex-flow: column;
+    }
+    .adm-btn {
+        width: 100%;
+        margin: 20px 5px 0px 5px;
+    }
+    .admission {
+        margin-bottom: 20px;
+    }
+    .adm-head {
+        margin-bottom: 30px;
+    }
+    .adm-text {
+        font-size: 18px;
+    }
+    .head-text {
+        font-size: 35px;
+    }
 }
