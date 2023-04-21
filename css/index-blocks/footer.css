@@ -72,3 +72,45 @@
     text-decoration: underline;
 }
 
+@media (max-width: 767px) {
+
+    .footer-row {
+        align-items: center;
+        padding: 40px 10px 40px;
+        font-size: 12px;
+        height: 300px;
+        flex-flow: column;
+        justify-content: center;
+
+    }
+
+    .office-number {
+        margin: 0 0 5px;
+    }
+    
+    .fax {
+        margin: 0 0 5px;
+
+    
+    }
+    
+    .e-mail {
+        margin: 0 0 5px;
+
+    
+    }
+
+    .contact-info {
+        flex-flow: column;
+        margin-bottom: 20px;
+    }
+
+    .social-media {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .privacy-policy {
+        font-size: 14px;
+    }
+}
