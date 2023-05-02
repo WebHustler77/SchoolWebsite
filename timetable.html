@@ -14,23 +14,32 @@
   <link rel="stylesheet" href="./css/timetable/timetable.css">
 </head>
 <body>
-<header class="header">
-    <div class="container">
-      <div class="header-row">
-        <div class="logo"><a href="index.html"><img id="img-logo" src="./img/logo.jpg" alt="logo"></a>
-          <div class="logo-text1"><strong> МБОУ "СОШ №1"</strong> <br> <div class="logo-text2"> г.Рубцовск</div></div>
-        </div>
-        <nav class="header-nav">
-          <ul>
+    <header class="header">
+        <div class="container">
+          <div class="header-row">
+            <div class="logo"><a href="index.html"><img id="img-logo" src="./img/logo.jpg" alt="logo"></a>
+              <div class="logo-text1"><strong> МБОУ "СОШ №1"</strong> <br> <div class="logo-text2"> г.Рубцовск</div></div>
+            </div>
+            <nav class="header-nav">
+              <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="timetable.html">Расписание</a></li>
+                <li><a href="./index.html#admission">Прием в школу</a></li>
+                <li><a href="about-school.html">О школе</a></li>
+              </ul>
+            </nav>
+            <div class="burger-icon hidden">
+              <img src="./img/burger.png" alt="burger-menu">
+            </div>
+          </div>
+          <ul class="menu-box hidden">
             <li><a href="index.html">Главная</a></li>
             <li><a href="timetable.html">Расписание</a></li>
-            <li><a href="index.html#admission">Прием в школу</a></li>
+            <li><a href="./index.html#admission">Прием в школу</a></li>
             <li><a href="about-school.html">О школе</a></li>
           </ul>
-        </nav>
-      </div>
-    </div>
-</header>
+        </div>
+    </header>
 <main>
     <div class="container">
         <div class="timetable-wrapper">
@@ -44,255 +53,15 @@
                 </select>
             </div>
             <div class="schedule">
-                <table class="timetable active" id="11A"> 
-                  <caption>Расписание 11А класса</caption>
-                    <tr>
-                        <th>№</th>
-                        <th>Время</th>
-                        <th>Пн</th>
-                        <th>Вт</th>
-                        <th>Ср</th>
-                        <th>Чт</th>
-                        <th>Пт</th>
-                        <th>Сб</th>
-                    </tr>
-                    <tr>
-                        <td class="grey">1</td>
-                        <td>8:00 - 8:45</td>
-                        <td>История</td>
-                        <td>География</td>
-                        <td>Математика</td>
-                        <td>Математика</td>
-                        <td>Физика</td>
-                        <td>Русский язык</td>
-                    </tr>
-                    <tr>
-                        <td class="grey">2</td>
-                        <td class="grey">8:55 - 9:40</td>
-                        <td class="grey">Литература</td>
-                        <td class="grey">Химия</td>
-                        <td class="grey">Английский язык</td>
-                        <td class="grey">Физ-ра</td>
-                        <td class="grey">Математика</td>
-                        <td class="grey">Русский язык</td>
-                    </tr>
-                    <tr>
-                        <td class="grey">3</td>
-                        <td>9:55 - 10:40</td>
-                        <td>Математика</td>
-                        <td>Физика</td>
-                        <td>Русский язык</td>
-                        <td>Обж</td>
-                        <td>Биология</td>
-                        <td>Астрономия</td>
-                    </tr>
-                    <tr>
-                        <td class="grey">4</td>
-                        <td class="grey">10:55 - 11:40</td>
-                        <td class="grey">Обществознание</td>
-                        <td class="grey">Русский язык</td>
-                        <td class="grey">Русский язык</td>
-                        <td class="grey">Биология</td>
-                        <td class="grey">Английский язык</td>
-                        <td class="grey">Английский язык</td>
-                    </tr>
-                    <tr>
-                        <td class="grey">5</td>
-                        <td>11:50 - 12:35</td>
-                        <td>Обществознание</td>
-                        <td>Литература</td>
-                        <td>Астрономия</td>
-                        <td>География</td>
-                        <td>Физ-ра</td>
-                        <td>Обществознание</td>
-                    </tr>
-                    <tr>
-                        <td class="grey">6</td>
-                        <td class="grey">12:50 - 13:35</td>
-                        <td class="grey">-</td>
-                        <td class="grey">Математика</td>
-                        <td class="grey">Химия</td>
-                        <td class="grey">Литература</td>
-                        <td class="grey">Литература</td>
-                        <td class="grey">Русский язык</td>
-                    </tr>
-                    <tr>
-                        <td class="grey">7</td>
-                        <td>13:45 - 14:25</td>
-                        <td>-</td>
-                        <td>Математика</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>Математика</td>
-                        <td>-</td>
-                    </tr>
-                </table>
-                <table class="timetable" id="10B"> 
-                  <caption>Расписание 10Б класса</caption>
-                  <tr>
-                      <th>№</th>
-                      <th>Время</th>
-                      <th>Пн</th>
-                      <th>Вт</th>
-                      <th>Ср</th>
-                      <th>Чт</th>
-                      <th>Пт</th>
-                      <th>Сб</th>
-                  </tr>
-                  <tr>
-                      <td class="grey">1</td>
-                      <td>8:00 - 8:45</td>
-                      <td>Право</td>
-                      <td>Математика</td>
-                      <td>Химия</td>
-                      <td>Английский язык</td>
-                      <td>История</td>
-                      <td>Математика</td>
-                  </tr>
-                  <tr>
-                      <td class="grey">2</td>
-                      <td class="grey">8:55 - 9:40</td>
-                      <td class="grey">Право</td>
-                      <td class="grey">Биология</td>
-                      <td class="grey">Обж</td>
-                      <td class="grey">Английский</td>
-                      <td class="grey">Физика</td>
-                      <td class="grey">Обществознание</td>
-                  </tr>
-                  <tr>
-                      <td class="grey">3</td>
-                      <td>9:55 - 10:40</td>
-                      <td>Физ-ра</td>
-                      <td>Русский язык</td>
-                      <td>Литература</td>
-                      <td>Обществознание</td>
-                      <td>Математика</td>
-                      <td>Математика</td>
-                  </tr>
-                  <tr>
-                      <td class="grey">4</td>
-                      <td class="grey">10:55 - 11:40</td>
-                      <td class="grey">Физ-ра</td>
-                      <td class="grey">Химия</td>
-                      <td class="grey">Биология</td>
-                      <td class="grey">Физика</td>
-                      <td class="grey">Литература</td>
-                      <td class="grey">История</td>
-                  </tr>
-                  <tr>
-                      <td class="grey">5</td>
-                      <td>11:50 - 12:35</td>
-                      <td>История</td>
-                      <td>Литература</td>
-                      <td>Астрономия</td>
-                      <td>География</td>
-                      <td>Физ-ра</td>
-                      <td>Обществознание</td>
-                  </tr>
-                  <tr>
-                      <td class="grey">6</td>
-                      <td class="grey">12:50 - 13:35</td>
-                      <td class="grey">-</td>
-                      <td class="grey">Математика</td>
-                      <td class="grey">Химия</td>
-                      <td class="grey">Литература</td>
-                      <td class="grey">-</td>
-                      <td class="grey">-</td>
-                  </tr>
-                  <tr>
-                      <td class="grey">7</td>
-                      <td>13:45 - 14:25</td>
-                      <td>-</td>
-                      <td>Математика</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>География</td>
-                      <td>-</td>
-                  </tr>
-              </table>
-              <table class="timetable" id="10A"> 
-                <caption>Расписание 10А класса</caption>
-                <tr>
-                    <th>№</th>
-                    <th>Время</th>
-                    <th>Пн</th>
-                    <th>Вт</th>
-                    <th>Ср</th>
-                    <th>Чт</th>
-                    <th>Пт</th>
-                    <th>Сб</th>
-                </tr>
-                <tr>
-                    <td class="grey">1</td>
-                    <td>8:00 - 8:45</td>
-                    <td>Литература</td>
-                    <td>Химия</td>
-                    <td>Английский язык</td>
-                    <td>Английский язык</td>
-                    <td>Русский язык</td>
-                    <td>Математика</td>
-                </tr>
-                <tr>
-                    <td class="grey">2</td>
-                    <td class="grey">8:55 - 9:40</td>
-                    <td class="grey">История</td>
-                    <td class="grey">География</td>
-                    <td class="grey">Математика</td>
-                    <td class="grey">Физ-ра</td>
-                    <td class="grey">Биология</td>
-                    <td class="grey">Литература</td>
-                </tr>
-                <tr>
-                    <td class="grey">3</td>
-                    <td>9:55 - 10:40</td>
-                    <td>Обществознание</td>
-                    <td>Русский язык</td>
-                    <td>Русский язык</td>
-                    <td>Биология</td>
-                    <td>Астрономия</td>
-                    <td>Биология</td>
-                </tr>
-                <tr>
-                    <td class="grey">4</td>
-                    <td class="grey">10:55 - 11:40</td>
-                    <td class="grey">Математика</td>
-                    <td class="grey">Русский язык</td>
-                    <td class="grey">Физика</td>
-                    <td class="grey">Математика</td>
-                    <td class="grey">Литература</td>
-                    <td class="grey">Русский язык</td>
-                </tr>
-                <tr>
-                    <td class="grey">5</td>
-                    <td>11:50 - 12:35</td>
-                    <td>Литература</td>
-                    <td>Обществознание</td>
-                    <td>Обществознание</td>
-                    <td>География</td>
-                    <td>Астрономия</td>
-                    <td>Физ-ра</td>
-                </tr>
-                <tr>
-                    <td class="grey">6</td>
-                    <td class="grey">12:50 - 13:35</td>
-                    <td class="grey">Обществознание</td>
-                    <td class="grey">Русский язык</td>
-                    <td class="grey">Биология</td>
-                    <td class="grey">История</td>
-                    <td class="grey">География</td>
-                    <td class="grey">Математика</td>
-                </tr>
-                <tr>
-                    <td class="grey">7</td>
-                    <td>13:45 - 14:25</td>
-                    <td>Обществознание</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>География</td>
-                    <td>Литература</td>
-                    <td>История</td>
-                </tr>
-            </table>
+                <div class="timetable active" id="11A"> 
+                    <div class="image"><img src="./img/schedule(2).png" alt="11A"></div>
+                </div>
+                <div class="timetable" id="10B"> 
+                    <div class="image"><img src="./img/schedule(3).png" alt="10B"></div>
+                </div>
+              <div class="timetable" id="10A"> 
+                <div class="image"><img src="./img/schedule(4).png" alt="10A"></div>
+              </div>
             </div>
         </div>
     </div>
@@ -316,5 +85,6 @@
 
 </footer>
 <script src="./js/timetable/timetable.js"></script>
+<script src="./js/header/header.js"></script>
 </body>
 </html>
