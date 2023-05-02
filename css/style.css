@@ -6,21 +6,16 @@ body {
     
 }
 
-.none {
-    display: none !important;
-}
-
-.visually-hidden {
-    position: absolute;
-}
-
-
 .container {
 	max-width: 1200px;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 @media (max-width: 1200px) {
@@ -36,25 +31,18 @@ body {
 }
 
 @media (max-width: 767px) {
-    .container {
-        max-width: none;
-    }
 
-    .news-head {
-        justify-content: center;
-    
+    .container {
+        width: 100%;
     }
 
     .news-row {
         flex-flow: column;
-        align-items: center;
+        align-items: center;  
     }
-}
 
-html {
-    scroll-behavior: smooth;
+    
 }
-
 
 
 
