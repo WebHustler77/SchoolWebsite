@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,22 +15,31 @@
     
 </head>
 <body>
-<header class="header">
-        <div class="container">
-          <div class="header-row">
-            <div class="logo"><a href="index.html"><img id="img-logo" src="./img/logo.jpg" alt="logo"></a>
-              <div class="logo-text1"><strong> МБОУ "СОШ №1"</strong> <br> <div class="logo-text2"> г.Рубцовск</div></div>
-            </div>
-            <nav class="header-nav">
-              <ul>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="timetable.html">Расписание</a></li>
-                <li><a href="index.html#admission">Прием в школу</a></li>
-                <li><a href="about-school.html">О школе</a></li>
-              </ul>
-            </nav>
-          </div>
+  <header class="header">
+    <div class="container">
+      <div class="header-row">
+        <div class="logo"><a href="index.html"><img id="img-logo" src="./img/logo.jpg" alt="logo"></a>
+          <div class="logo-text1"><strong> МБОУ "СОШ №1"</strong> <br> <div class="logo-text2"> г.Рубцовск</div></div>
         </div>
+        <nav class="header-nav">
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="timetable.html">Расписание</a></li>
+            <li><a href="./index.html#admission">Прием в школу</a></li>
+            <li><a href="about-school.html">О школе</a></li>
+          </ul>
+        </nav>
+        <div class="burger-icon hidden">
+          <img src="./img/burger.png" alt="burger-menu">
+        </div>
+      </div>
+      <ul class="menu-box hidden">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="timetable.html">Расписание</a></li>
+        <li><a href="./index.html#admission">Прием в школу</a></li>
+        <li><a href="about-school.html">О школе</a></li>
+      </ul>
+    </div>
 </header>
 <main>
   <div class="main-section">
@@ -392,10 +401,6 @@
 13.2. В данном документе будут отражены любые изменения политики обработки персональных данных Оператором. Политика действует бессрочно до замены ее новой версией.
 </p>
 
-<p>
-13.3. Актуальная версия Политики в свободном доступе расположена в сети Интернет по адресу https://site-r00.gosweb.gosuslugi.ru/policy/.
-</p>
-
 </div>
   </div>
 </main>
@@ -417,6 +422,6 @@
         </div>
       
 </footer>
-    
+<script src="./js/header/header.js"></script>
 </body>
 </html>
