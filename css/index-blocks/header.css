@@ -54,7 +54,33 @@
     color: #bd1f04;
 }
 
+.hidden {
+    display: none;
+}
+
+.burger-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.5s;
+}
+
+.burger-icon:active {
+    transform: rotate(5deg);
+
+}
+
+.menu-box {
+    text-align: center;
+    font-size: 15px;
+}
+
+.menu-box li {
+    margin-bottom: 5px;
+}
+
+
 @media (max-width: 767px) {
+
 
     .header-nav {
         display: none;
@@ -68,4 +94,9 @@
     .header-nav {
         display: none;
     }
+
+    .burger-icon {
+        display: block;
+    }
+
 }
