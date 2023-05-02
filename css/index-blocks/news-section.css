@@ -91,9 +91,40 @@
         padding: 10px;
         width: 100%;
         margin: 10px;
-        height: 500px;
+        height: 300px;
+        grid-auto-flow: column;
+        grid-template-columns: auto;
     }
 
+    .block-img-section {
+        width: 100%;
+        height: auto;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .block-text-section h2 {
+        margin-bottom: 5px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .block-text-section p{
+        font-size: 14px;
+        font-weight: 100;
+        
+    }
+
+    .block-date-section {
+        font-size: 10px;
+    }
+
+    .head-text {
+        font-size: 25px;
+    }
+    
 }
 
 
