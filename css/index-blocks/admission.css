@@ -85,11 +85,9 @@
     }
     .adm-head {
         margin-bottom: 30px;
+        font-size: 25px;
     }
     .adm-text {
         font-size: 18px;
-    }
-    .head-text {
-        font-size: 35px;
     }
 }
